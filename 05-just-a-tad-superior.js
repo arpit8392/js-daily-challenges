@@ -3,7 +3,8 @@
 //     that of the second array.
 
 const isSuperior = (firstArray, secondArray) => {
-    return firstArray.some( (item, index) => item > secondArray[index] )
+    // return firstArray.some( (item, index) => item > secondArray[index] )
+    return firstArray > secondArray
 }
 
 console.log(isSuperior ([1, 2, 4], [1, 2, 3]));
